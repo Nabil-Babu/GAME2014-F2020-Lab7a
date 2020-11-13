@@ -2718,6 +2718,7 @@ MonoBehaviour:
   verticalForce: 10000
   isGrounded: 0
   isJumping: 0
+  isCrouching: 0
   spawnPoint: {fileID: 265498347}
 --- !u!61 &2013978530
 BoxCollider2D:
