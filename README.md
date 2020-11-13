@@ -1,3 +1,3 @@
-# GAME2014-F2020-Lesson10
+# GAME2014-F2020-Lab7a
 
-Demo Project for GAME2014 - Lesson 10
+Demo Project for GAME2014 - Lab7a
