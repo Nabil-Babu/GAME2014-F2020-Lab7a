@@ -47,6 +47,7 @@ public class OpossumBehaviour : MonoBehaviour
             }
             else
             {
+                Debug.Log("Ramps Wall Hit");
                 rampDirection = RampDirection.UP;
             }
         }
@@ -60,6 +61,7 @@ public class OpossumBehaviour : MonoBehaviour
         {
             if (groundHit.collider.CompareTag("Ramps"))
             {
+                Debug.Log("Ramps Ground Hit");
                 onRamp = true;
             }
 
@@ -111,7 +113,7 @@ public class OpossumBehaviour : MonoBehaviour
     IEnumerator Rotate()
     {
         yield return new WaitForSeconds(0.05f);
-        transform.rotation = Quaternion.Euler(0.0f, 0.0f, -26.0f);
+        transform.rotation = Quaternion.Euler(0.0f, 0.0f, -23.0f);
     }
     IEnumerator Normalize()
     {
